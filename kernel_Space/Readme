@@ -1,0 +1,20 @@
+1.To Build 
+
+make
+
+2.To Load
+
+sudo insmod my_kernel.ko
+
+3.To verify module loading
+
+lsmod | grep my_kernel
+dmesg | tail
+
+4.Remove
+
+sudo rmmod my_kernel
+ 
+5.To verify removal
+
+sudo rmmod my_kernel 
