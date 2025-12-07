@@ -1,0 +1,1 @@
+savedcmd_/home/jeyaseelan/Desktop/software/new_service/kernel_test/my_kernel.mod := printf '%s\n'   my_kernel.o | awk '!x[$$0]++ { print("/home/jeyaseelan/Desktop/software/new_service/kernel_test/"$$0) }' > /home/jeyaseelan/Desktop/software/new_service/kernel_test/my_kernel.mod
