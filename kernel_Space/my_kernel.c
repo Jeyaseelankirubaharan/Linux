@@ -7,13 +7,13 @@ MODULE_DESCRIPTION("A simple Hello World kernel module."); // Provides a brief d
 
 static int __init my_kernel_init(void)
 {
-	printk (KERN_INFO "Jeyaseelan - Hello World  module initialized");
+	printk (KERN_ALERT "Jeyaseelan - Hello World  module initialized");
 	return 0;
 }
 
 static void __exit  my_kernel_exit(void)
 {
-	printk (KERN_INFO "Jeyaseelan - Hello World  module exited");
+	printk (KERN_ALERT "Jeyaseelan - Hello World  module exited");
 }
 
 module_init(my_kernel_init); 
